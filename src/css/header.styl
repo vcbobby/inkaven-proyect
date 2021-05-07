@@ -1,0 +1,58 @@
+.header
+    position fixed
+    width 100%
+    background-color main-color
+    z-index 1
+    fonts(secondary-font)
+    &__nav
+        display flex
+        min-height 40px
+        flex-direction row
+        justify-content center
+        align-items center
+        background-color principal-color
+        font-size 1.2rem
+        ul
+            display flex
+            flex-direction row
+            flex-wrap wrap
+            margin-top 5px
+            justify-content center
+            align-items center
+        li
+            margin-bottom 8px
+            position relative
+            list-style none
+            a
+                display flex
+                justify-content center
+                align-items center
+                text-decoration none
+            .li-p
+                display inline-block
+                text-align center
+                margin 0 8px
+                color main-color
+        .nav--social
+            display none
+    &__search
+        min-height 90px
+        display flex
+        justify-content space-between
+        flex-direction row
+        align-items center
+        margin 0 30px
+        &-logo
+            img
+                width 40px
+                height 43px
+        &-menu
+            li
+                margin-left 15px
+                display inline-block
+                list-style none
+                text-decoration none
+            img
+                width 20px
+                height 20px
+

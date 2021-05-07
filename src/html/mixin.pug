@@ -1,0 +1,13 @@
+mixin boxes(image,info)
+    .process--box
+        picture
+            img(src="./assets/icons/"+image)
+        p=info
+
+mixin articles(image,name,info,link)
+    .who--articles
+        picture
+            img(src="./assets/icons/"+image)
+        h2=name
+        p=info
+        a=link

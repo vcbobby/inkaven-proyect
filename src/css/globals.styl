@@ -1,0 +1,70 @@
+// Principal section**
+
+principal-color = #aed402
+main-color = #ffffff
+hover-color = #8f1aea
+button-main-color = #4e4e4e
+slogan-color = #f0f8ff
+light-letters = #fefefe
+dark-letters = #333333
+plans-main-color = #a3a3a3
+footer-background = #171717
+
+// Contact and info sections**
+
+send-button = #2ea3f2
+contact-background = #e6e6e6
+
+// Fonts**
+
+main-font = 'Poppins', 'Helvética', 'Arial', 'Lucida', sans-serif
+secondary-font = 'Open Sans', 'Arial', sans-serif
+
+// Botones**
+
+buttons()
+    margin 0 auto
+    width 160px
+    height 50px
+    border-radius 20px
+    font-size 1.5rem
+    background-color button-main-color
+    border none
+    fonts(main-font)
+    color light-letters
+    &:hover
+        cursor pointer
+        background-color hover-color
+
+boxes()
+    display inline-flex
+    justify-content center
+    align-items center
+    max-width 300px
+    flex-direction column
+    flexword-wrap wrap
+    img
+        width 218px
+        height 218px
+    p
+        font-size 1.7rem
+        padding 0 20px
+
+// Functions**
+
+fonts(font)
+    if font == main-font
+        font-family main-font
+    else
+        font-family secondary-font
+
+
+*
+    box-sizing border-box
+    margin 0
+    padding 0
+
+html
+    font-size 62.5%
+    background-color main-color
+    titulos(fuente1)

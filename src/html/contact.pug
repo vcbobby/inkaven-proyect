@@ -1,0 +1,26 @@
+extends plantilla.pug
+block contenidos
+    main.container--contact
+        section.main__contact--news
+            .contact--div
+                h1 CONTACT WITH US.
+                p We work together with you, we create your Virtual store, website for entrepreneurs and much more ...
+            button.main__contact--button Choose your plan
+        section.main__contact--info
+            h3 Location
+            p Caracas, Venezuela
+            h3 Email
+            p Castillovictor2461@gmail.com <br>https://github.com/vcbobby
+            h3 Movil
+            p +58 (414) 451-53-57
+        form.main__contact--form
+            label(for="GET-name") Your Name (Required)
+            input(type="text" name="text" value="Name")
+            label(for="GET-name") Your Email (Required)
+            input(type="text" name="text" value="Email")
+            label(for="GET-name") Affair
+            input(type="text" name="text" value="Affair")
+            label(for="GET-name") Message
+            input(type="text" name="text" value="Your message")
+            input(type="submit", value="Send")
+

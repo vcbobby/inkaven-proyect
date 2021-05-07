@@ -1,12 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <title>InkaVen</title>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>Andreaaaaaaa</p>
-</body>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+    <meta name="Víctor" content="Inkaven">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul>
+          <li><a class="header__nav-icon" href="#"><img src="./assets/icons/llama.png" alt="call image" title="Call us!">
+              <p class="li-p">+58 (414) 451-53-57</p></a></li>
+          <li><a class="header__nav-icon" href="#"><img src="./assets/icons/mail-header.png" alt="mail image" title="Mail us!">
+              <p class="li-p">Castillovictor2461@gmail.com</p></a></li>
+          <div class="nav--social">
+            <ul>
+              <li><a class="social--icon" href="#"><img src="./assets/icons/fb-header.png" alt="Search icon" title="What are you looking for?"></a></li>
+              <li><a class="social--icon" href="#"><img src="./assets/icons/twitter-header.png" alt="Search icon" title="What are you looking for?"></a></li>
+              <li><a class="social--icon" href="#"><img src="./assets/icons/google-header.png" alt="Search icon" title="What are you looking for?"></a></li>
+              <li><a class="social--icon" href="#"><img src="./assets/icons/instagram-header.png" alt="Search icon" title="What are you looking for?"></a></li>
+              <li><a class="social--icon" href="#"><img src="./assets/icons/feed-header.png" alt="Search icon" title="What are you looking for?"></a></li>
+            </ul>
+          </div>
+        </ul>
+      </nav>
+      <section class="header__search">
+        <picture class="header__search-logo"><img src="./assets/logos/Inkaven.png" alt="Logo image" title="Logo"></picture>
+        <ul class="header__search-menu">
+          <li><a class="header__search-look" href="#"><img src="./assets/icons/magnifier.png" alt="Search icon" title="What are you looking for?"></a></li>
+          <li><a class="header__search-look" href="#"><img src="./assets/icons/lista.png" alt="Menu icon" title="This is the menú"></a></li>
+        </ul>
+      </section>
+    </header>
+    <main class="container--home">
+      <section class="main__news">
+        <picture class="main__news-pic"><img src="./assets/imgs/contact-small.jpg" alt="Main image">
+          <div class="news-div">
+            <h1>WEB DESIGN</h1>
+            <p>We develop professional websites at your fingertips</p>
+            <button class="main__button">Contact us!</button>
+          </div>
+        </picture>
+      </section>
+      <section class="main__products">
+        <my-products img="./assets/icons/one-page.png" h2="One-page Design" pack="See Pack" info="We create a One Page totally dedicated to your SMEs, we highlight a product from your virtual store with a landing page or Landing Page, you choose and we make it happen"></my-products>
+        <my-products img="./assets/icons/super.png" h2="Super-express" pack="See Pack" info="With WordPress and Divi from elegant Themes, you will enjoy super easy to manage Web Pages, with exclusive designs, you can also guarantee the promotion of your SMEs with a Super Express design."></my-products>
+        <my-products img="./assets/icons/website.png" h2="Professional Website" pack="See Pack" info="We promote your SME business, with a professional website, fully responsive, adaptable to all existing devices, with a unique and professional style. Professional Website."></my-products>
+        <my-products img="./assets/icons/virtual.png" h2="Virtual Store" pack="See Pack" info="We promote your SME business, with a professional website, fully responsive, adaptable to all existing devices, with a unique and professional style. Professional Website."></my-products>
+      </section>
+      <section class="main__harmony">
+        <div class="main__harmony-info">
+          <h2 class="harmony--title">HARMONY,</h2>
+          <h3 class="harmony--subtitle">Digital Marketing & Web Development</h3>
+          <p class="harmony--paragraph">We are a web design and development company, based on the WordPress content management platform (CMS), we use the powerful Divi theme of Elegant Themes to create Web Pages that will really leave you astonished, all this we merge with Digital Marketing tools most powerful on the market.</p>
+          <button class="harmony--button">GET YOUR PLAN!</button>
+        </div>
+        <picture class="main__harmony-logo"><img src="./assets/logos/Inkaven-main.png" alt="Inka Logo" title="InkaVen Logo"></picture>
+      </section>
+      <section class="main__process">
+        <h2 class="process--title">ELABORATION PROCESS</h2>
+        <h3 class="process--subtitle">INKAVEN  |  WEB PAGES DESIGN</h3>
+        <div class="main__process--box">
+            <div class="process--box">
+              <picture><img src="./assets/icons/Newicon_idea.png"></picture>
+              <p>Choose the Right Plan</p>
+            </div>
+            <div class="process--box">
+              <picture><img src="./assets/icons/NewIcon_trabajo.png"></picture>
+              <p>Choose a design and we will customize it</p>
+            </div>
+            <div class="process--box">
+              <picture><img src="./assets/icons/Newentrega.png"></picture>
+              <p>We configure and create your site</p>
+            </div>
+            <div class="process--box">
+              <picture><img src="./assets/icons/Newicon_cronos.png"></picture>
+              <p>Enjoy you Website</p>
+            </div>
+        </div>
+      </section>
+      <section class="main__portfolio">
+        <div class="portfolio--plans">
+          <h3 class="plans--title">Ready to increase your sales?</h3>
+          <p class="plans--paragraph">We will help you achieve your goals with personalized advice.</p>
+          <button class="plans--button">Inkaven Plans</button>
+        </div>
+        <div class="portfolio--design">
+          <h3 class="design--title">Web Design</h3>
+          <button class="design--button">Portfolio</button>
+        </div>
+      </section>
+      <section class="main__exclusive">
+        <h2 class="exclusive--title">WE CREATE QUALITY CONTENT WITH A UNIQUE AND PROFESSIONAL STYLE,</h2>
+        <h2 class="exclusive--title">EXCLUSIVE FOR YOUR SMEs</h2>
+        <div class="main__exclusive--box">
+            <div class="process--box">
+              <picture><img src="./assets/icons/contenido-original.png"></picture>
+              <p>ORIGINAL CONTENT</p>
+            </div>
+            <div class="process--box">
+              <picture><img src="./assets/icons/diseno-unico.png"></picture>
+              <p>UNIQUE DESIGN</p>
+            </div>
+            <div class="process--box">
+              <picture><img src="./assets/icons/responsive.png"></picture>
+              <p>RESPONSIVE</p>
+            </div>
+            <div class="process--box">
+              <picture><img src="./assets/icons/personalizable.png"></picture>
+              <p>PERSONALIZE</p>
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__social">
+        <li><a class="fooder__social-icon" href="#"><img src="./assets/icons/fb-footer.png" alt="Facebook logo" title="Facebook"></a></li>
+        <li><a class="fooder__social-icon" href="#"><img src="./assets/icons/twitter-footer.png" alt="Twitter logo" title="Twitter"></a></li>
+        <li><a class="fooder__social-icon" href="#"><img src="./assets/icons/google-footer.png" alt="Google logo" title="Google"></a></li>
+        <li><a class="fooder__social-icon" href="#"><img src="./assets/icons/instagram-footer.png" alt="Instagram logo" title="Instagram"></a></li>
+        <li><a class="fooder__social-icon" href="#"><img src="./assets/icons/feed-footer.png" alt="Feed logo" title="Feed"></a></li>
+      </ul>
+      <p>Design and Web development   |   Víctor Castillo</p>
+    </footer>
+  </body>
 </html>

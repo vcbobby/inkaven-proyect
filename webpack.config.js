@@ -51,6 +51,16 @@ module.exports = {
             template: './src/html/index.html',
             filename: './index.html'
         }),
+        new htmlWebpackPlugin({
+            inject: true,
+            template: './src/html/contact.html',
+            filename: './contact.html'
+        }),
+        new htmlWebpackPlugin({
+            inject: true,
+            template: './src/html/who.html',
+            filename: './who.html'
+        }),
         new miniCssExtractPlugin({
             filename: 'assets/[name].[contenthash].css'
         }),

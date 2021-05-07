@@ -1,0 +1,47 @@
+extends plantilla.pug
+block contenidos
+    main.container--home
+        section.main__news
+            picture.main__news-pic
+                img(src="./assets/imgs/contact-small.jpg", alt="Main image")
+                .news-div
+                    h1 WEB DESIGN
+                    p We develop professional websites at your fingertips
+                    button.main__button Contact us!
+        section.main__products
+            my-products(img="./assets/icons/one-page.png", h2="One-page Design", pack="See Pack", info="We create a One Page totally dedicated to your SMEs, we highlight a product from your virtual store with a landing page or Landing Page, you choose and we make it happen")
+            my-products(img="./assets/icons/super.png", h2="Super-express", pack="See Pack", info="With WordPress and Divi from elegant Themes, you will enjoy super easy to manage Web Pages, with exclusive designs, you can also guarantee the promotion of your SMEs with a Super Express design.")
+            my-products(img="./assets/icons/website.png", h2="Professional Website", pack="See Pack", info="We promote your SME business, with a professional website, fully responsive, adaptable to all existing devices, with a unique and professional style. Professional Website.")
+            my-products(img="./assets/icons/virtual.png", h2="Virtual Store", pack="See Pack", info="We promote your SME business, with a professional website, fully responsive, adaptable to all existing devices, with a unique and professional style. Professional Website.")
+        section.main__harmony
+            .main__harmony-info
+                h2.harmony--title HARMONY,
+                h3.harmony--subtitle Digital Marketing & Web Development
+                p.harmony--paragraph We are a web design and development company, based on the WordPress content management platform (CMS), we use the powerful Divi theme of Elegant Themes to create Web Pages that will really leave you astonished, all this we merge with Digital Marketing tools most powerful on the market.
+                button.harmony--button GET YOUR PLAN!
+            picture.main__harmony-logo
+                img(src="./assets/logos/Inkaven-main.png", alt="Inka Logo", title="InkaVen Logo")
+        section.main__process
+            h2.process--title ELABORATION PROCESS
+            h3.process--subtitle INKAVEN  |  WEB PAGES DESIGN
+            .main__process--box
+                +boxes('Newicon_idea.png','Choose the Right Plan')
+                +boxes('NewIcon_trabajo.png','Choose a design and we will customize it')
+                +boxes('Newentrega.png','We configure and create your site')
+                +boxes('Newicon_cronos.png','Enjoy you Website')
+        section.main__portfolio
+            .portfolio--plans
+                h3.plans--title Ready to increase your sales?
+                p.plans--paragraph We will help you achieve your goals with personalized advice.
+                button.plans--button Inkaven Plans
+            .portfolio--design
+                h3.design--title Web Design
+                button.design--button Portfolio
+        section.main__exclusive
+            h2.exclusive--title WE CREATE QUALITY CONTENT WITH A UNIQUE AND PROFESSIONAL STYLE,
+            h2.exclusive--title EXCLUSIVE FOR YOUR SMEs
+            .main__exclusive--box
+                +boxes('contenido-original.png','ORIGINAL CONTENT')
+                +boxes('diseno-unico.png','UNIQUE DESIGN')
+                +boxes('responsive.png','RESPONSIVE')
+                +boxes('personalizable.png','PERSONALIZE')
