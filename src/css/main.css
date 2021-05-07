@@ -138,13 +138,6 @@ html {
   height: 50px;
   border: 2px solid #000;
 }
-.container--home .main__contact--info {
-  width: 100%;
-  font-family: 'Poppins', 'Helvética', 'Arial', 'Lucida', sans-serif;
-}
-.container--home .main__contact--info p {
-  font-size: 3rem;
-}
 .container--home .main__products {
   width: 100%;
   display: flex;
